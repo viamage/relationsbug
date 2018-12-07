@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/viamage/relationsbug/models/category/fields.yaml
+
+# Model Class name
+modelClass: Viamage\RelationsBug\Models\Category
+
+# Default redirect location
+defaultRedirect: viamage/relationsbug/categories
+
+# Create page
+create:
+    title: Create Category
+    redirect: viamage/relationsbug/categories/update/:id
+    redirectClose: viamage/relationsbug/categories
+
+# Update page
+update:
+    title: Edit Category
+    redirect: viamage/relationsbug/categories
+    redirectClose: viamage/relationsbug/categories
+
+# Preview page
+preview:
+    title: Preview Category

@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+products:
+    label: Products
+    view:
+        list: $/viamage/relationsbug/models/product/columns.yaml
+        toolbarButtons: delete
+        recordsPerPage: 10
+    manage:
+        form: $/viamage/relationsbug/models/product/fields.yaml
+        recordsPerPage: 10
